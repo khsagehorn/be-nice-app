@@ -12,3 +12,6 @@ var nice10 = new NiceThing(10, "Nobody likes the people who don't like you.", 0)
 var nice12 = new NiceThing(12, "You are made from the same particles as the sun.", 0);
 var nice14 = new NiceThing(14, "All of history led to you.", 0)
 var nice16 = new NiceThing(16, "Nobody likes the people who don't like you.", 0);
+var nice18 = new NiceThing(18, "Your opinions are correct.", 0);
+
+var nice18 = new NiceThing(20, "In the future they will tell your tale.", 0);
