@@ -1,1 +1,26 @@
 /* add custom styles */
+body {
+    background-size: cover;
+    background-color: #E0E2DB;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: #2E3532;
+    font-family: "Pacifico";
+    text-align: center;
+}
+
+div {
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+}
+
+button {
+    height: 100px;
+    width: 400px;
+    font-size: 20px;
+}
