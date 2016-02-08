@@ -1,8 +1,16 @@
+var niceArray = [];
+
+
 function NiceThing(id, text, rating){
   this.id = id;
   this.text = text;
   this.rating = rating;
+  
+    niceArray.push.call(this);
+  
+  console.log(niceArray);
 }
+
 
 
 
@@ -26,3 +34,12 @@ var nice17 = new NiceThing(17, "You are strong! You are beautiful! You are desir
 var nice18 = new NiceThing(18, "Your opinions are correct.", 0);
 var nice19 = new NiceThing(19, "Winning!",0);
 var nice20 = new NiceThing(20, "In the future they will tell your tale.", 0);
+
+// NiceThing.prototype.pushNice = function(el) {
+//   for (var i = 0; i < something; i++) {
+//     var xox = "nice" + [i].to_string;
+//     xox.push
+//   }
+// }
+
+// console.log(niceArray);
