@@ -1,3 +1,7 @@
+
 $('button').on('click', function(){
-  $('#result').html('<p>' + niceThing + '</p>')
+  var niceThing = niceArr[Math.floor(Math.random()*niceArr.length)].text;
+
+  $("#result").empty();
+  $('#result').html('<p>' + niceThing + '</p>');
 });

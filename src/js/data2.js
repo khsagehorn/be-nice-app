@@ -1,1 +1,1 @@
-var niceThing = niceArray[Math.floor(Math.random()*niceArray.length)];
+var niceThing = niceArr[Math.floor(Math.random()*niceArr.length)].text;
