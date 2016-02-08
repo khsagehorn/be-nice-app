@@ -4,7 +4,7 @@ function NiceThing(id, text, rating){
   this.rating = rating;
 }
 
-
+var niceArr = [nice1,nice2,nice3,nice4,nice5,nice6,nice7,nice8,nice9,nice10,nice11,nice12,nice13,nice14,nice15,nice16,nice17,nice18,nice19,nice20];
 
 var nice1 = new NiceThing(1, "You're doing great, buddy. Keep it up.", 0);
 var nice2 = new NiceThing(2, "Your hair looks nice like that.", 0);
