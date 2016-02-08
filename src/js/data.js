@@ -1,10 +1,18 @@
+var niceArray = [];
+
+
 function NiceThing(id, text, rating){
   this.id = id;
   this.text = text;
   this.rating = rating;
+  
+    niceArray.push.call(this);
+  
+  console.log(niceArray);
 }
 
 var niceArr = [nice1,nice2,nice3,nice4,nice5,nice6,nice7,nice8,nice9,nice10,nice11,nice12,nice13,nice14,nice15,nice16,nice17,nice18,nice19,nice20];
+
 
 var nice1 = new NiceThing(1, "You're doing great, buddy. Keep it up.", 0);
 var nice2 = new NiceThing(2, "Your hair looks nice like that.", 0);
@@ -26,3 +34,12 @@ var nice17 = new NiceThing(17, "You are strong! You are beautiful! You are desir
 var nice18 = new NiceThing(18, "Your opinions are correct.", 0);
 var nice19 = new NiceThing(19, "Winning!",0);
 var nice20 = new NiceThing(20, "In the future they will tell your tale.", 0);
+
+// NiceThing.prototype.pushNice = function(el) {
+//   for (var i = 0; i < something; i++) {
+//     var xox = "nice" + [i].to_string;
+//     xox.push
+//   }
+// }
+
+// console.log(niceArray);
